@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-dnd-target-example/static/js/main.59868bf2.chunk.js",
+    "main.js.map": "/react-dnd-target-example/static/js/main.59868bf2.chunk.js.map",
+    "runtime~main.js": "/react-dnd-target-example/static/js/runtime~main.b8d8d481.js",
+    "runtime~main.js.map": "/react-dnd-target-example/static/js/runtime~main.b8d8d481.js.map",
+    "static/js/2.e2ce42ce.chunk.js": "/react-dnd-target-example/static/js/2.e2ce42ce.chunk.js",
+    "static/js/2.e2ce42ce.chunk.js.map": "/react-dnd-target-example/static/js/2.e2ce42ce.chunk.js.map",
+    "index.html": "/react-dnd-target-example/index.html",
+    "precache-manifest.cf6c0625984368824ef826e83f2ea886.js": "/react-dnd-target-example/precache-manifest.cf6c0625984368824ef826e83f2ea886.js",
+    "service-worker.js": "/react-dnd-target-example/service-worker.js"
+  }
+}
