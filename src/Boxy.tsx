@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { ItemTypes } from "./ItemTypes";
 import {
     useDrag,
@@ -9,6 +9,7 @@ import {
     DragSourceMonitor
 } from "react-dnd";
 import { IdType } from "./ListItems";
+import { getEmptyImage } from "react-dnd-html5-backend";
 
 const style: React.CSSProperties = {
     border: "1px dashed gray",
@@ -76,6 +77,10 @@ export const Boxy: React.FC<BoxProps> = ({ id, name, type, accept, onChange, chi
     });
 
     drag(drop(ref));
+    
+    useEffect(() => {
+        preview(getEmptyImage(), { captureDraggingState: true });
+    }, []);
 
     return (
         <div
@@ -91,7 +96,7 @@ export const Boxy: React.FC<BoxProps> = ({ id, name, type, accept, onChange, chi
             <div>
                 {name}
                 <span
-                        ref={preview}
+                        // ref={preview}
                         style={{
                             padding: "3px",
                             width: "1em",

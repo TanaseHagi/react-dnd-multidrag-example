@@ -5,6 +5,7 @@ import HTML5Backend from "react-dnd-html5-backend";
 import { Boxy, ChangeEvent } from "./Boxy";
 import { ItemTypes } from "./ItemTypes";
 import { IListItem, ListItems, IItemSelection, IdType, IListItemData } from "./ListItems";
+import { BoxyDragLayer } from "./BoxyDragLayer";
 
 const sort = (data: IListItemData[]) => {
     return data.sort((item1, item2) => item1.name[0] > item2.name[0] ? 1 : -1)
@@ -89,6 +90,7 @@ const App: FC = () => {
 
     return (
         <DndProvider backend={HTML5Backend}>
+            <BoxyDragLayer />
             <div style={{ display: "flex" }}>
                 {lists.map((list, index) =>
                     <Boxy
