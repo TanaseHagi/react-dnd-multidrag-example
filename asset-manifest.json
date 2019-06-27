@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/react-dnd-multidrag-example/static/js/main.a963647c.chunk.js",
-    "main.js.map": "/react-dnd-multidrag-example/static/js/main.a963647c.chunk.js.map",
+    "main.js": "/react-dnd-multidrag-example/static/js/main.234ed598.chunk.js",
+    "main.js.map": "/react-dnd-multidrag-example/static/js/main.234ed598.chunk.js.map",
     "runtime~main.js": "/react-dnd-multidrag-example/static/js/runtime~main.13315cb0.js",
     "runtime~main.js.map": "/react-dnd-multidrag-example/static/js/runtime~main.13315cb0.js.map",
-    "static/js/2.e2ce42ce.chunk.js": "/react-dnd-multidrag-example/static/js/2.e2ce42ce.chunk.js",
-    "static/js/2.e2ce42ce.chunk.js.map": "/react-dnd-multidrag-example/static/js/2.e2ce42ce.chunk.js.map",
+    "static/js/2.d974ce20.chunk.js": "/react-dnd-multidrag-example/static/js/2.d974ce20.chunk.js",
+    "static/js/2.d974ce20.chunk.js.map": "/react-dnd-multidrag-example/static/js/2.d974ce20.chunk.js.map",
     "index.html": "/react-dnd-multidrag-example/index.html",
-    "precache-manifest.76f1824e84bf0ebd7c46fc7e8bc75c50.js": "/react-dnd-multidrag-example/precache-manifest.76f1824e84bf0ebd7c46fc7e8bc75c50.js",
+    "precache-manifest.a14deccf06e6500cd93f3ca29bf9a192.js": "/react-dnd-multidrag-example/precache-manifest.a14deccf06e6500cd93f3ca29bf9a192.js",
     "service-worker.js": "/react-dnd-multidrag-example/service-worker.js"
   }
 }
