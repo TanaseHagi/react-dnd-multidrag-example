@@ -41,13 +41,15 @@ export const ListItems: FC<IListItemsProps> = ({ selectionData, list, setSelecti
                             backgroundColor: selectionData[index] === true ? "salmon" : "white",
                             margin: "3px",
                             padding: "3px",
-                            display: "block"
+                            display: "block",
+                            position: "relative",
                         }}
                     >
                         <input
+                            hidden
                             checked={selectionData[index] === true}
                             onChange={(checked) => onChange(index, checked)}
-                            style={{ marginRight: "6px" }}
+                            style={{ marginRight: "6px", visibility: "hidden", position: "absolute" }}
                             type="checkbox"
                         />
                         {item.name}
